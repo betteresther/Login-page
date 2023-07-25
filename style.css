@@ -1,0 +1,124 @@
+body{
+ width: initial;
+  /* border: 20px solid #343a40; */
+  /* border-radius: 30px; */
+  height: 650px;
+  margin: auto;
+  background-color:rgba(111, 233, 111, 0.563);
+}
+.apple{
+  border: 1px black solid;
+  width: 115px;
+  height: 38px;
+  border-radius: 7px;
+  background-color: black;
+  margin-top: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#iBanking, #payment, #Accounts{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 20px;
+  color: antiquewhite;
+}
+.name{
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.bold-text{
+  font-size: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-right: 100px;
+}
+.trans-text{
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card{
+  width: 400px;
+  /* border: 0.8px rgba(128, 128, 128, 0.487) solid; */
+  border-radius: 20px;
+  cursor: pointer;
+}
+#h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 100px;
+  font-weight: bold;
+}
+.cust{
+  font-size: 12px;
+  color: rgba(157, 157, 154, 0.644);
+  font-weight: bold;
+  padding-left: 20px;
+}
+::placeholder{
+  color: rgba(157, 157, 154, 0.644);
+  font-weight: bold;
+  font-size: 11px;
+}
+#ema{
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-left: 20px;
+  height: 40px;
+}
+#pwd{
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-left: 25px;
+  height: 40px;
+  margin-top: 30px;
+}
+.cond{
+  text-decoration: underline;
+  color: rgba(157, 157, 154, 0.644);
+  font-weight: bold;
+  font-size: 11px;
+  margin-top: 10px;
+}
+.Terms{
+  color: rgba(157, 157, 154, 0.644);
+  font-weight: bold;
+  font-size: 11px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.Log{
+  margin-left: 25px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+  border-radius: 10px;
+  width: 130px;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: white;
+  height: 40px;
+}
+.Log:hover{
+  /* background-color:  rgba(0, 100, 0, 0.601);; */
+  color: black;
+  border: 2px ridge rgba(157, 157, 154, 0.644) ;
+}
+/* .card:hover{
+  background-color: rgb(66, 62, 62);
+} */
+.Forg{
+  text-decoration: underline;
+  color: rgba(157, 157, 154, 0.644);
+  font-weight: bold;
+  font-size: 11px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.Forg:hover{
+  color: white;
+}
+.Terms:hover{
+color: white;
+}
+.cond:hover{
+  color: white;
+}

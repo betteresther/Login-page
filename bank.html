@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+
+  <title>bank login</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#"><i class="fa fa-leaf" style="font-size:40px;color:rgba(111, 233, 111, 0.563)"></i>
+      <span
+        style="font-size: 20px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">/hello@sunrise.com</span></a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar" style="justify-content: right;">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" id="iBanking" href="#">. iBanking</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="payment" href="#">. Payments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="Accounts" href="#">. Accounts</a>
+        </li>
+        <div class="nav-item">
+          <div class="apple">
+            <i class="fa fa-apple" style="font-size:13px;color: aliceblue;"><span
+                style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                Download on the Appstore</span></i></a>
+          </div>
+          </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- <div class="bg-image">
+        <img src="../BANK/texture.jfif" alt="lines"><span>  <img src="../BANK/texture 1.jfif" alt="texture"></span>
+        -->
+  </div>
+  <div class="name">
+    <i class="fa fa-bars" style="color: black; font-size: 30px;"><span
+        style="font-size:20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+        Net banking </span></i>
+  </div>
+  <div class="container-fluid ">
+    <div class="row justify-content-center">
+      <div class="row" col-lg-6 col-md-6 col-sm-12>
+        <p class="bold-text">Lorem Ipsum<br><span style="color: rgba(0, 100, 0, 0.601);"> MF BANK</span></p>
+      </div>
+
+      <div class="roww justify-content-center" col-lg-6 col-md-6 col-sm-12>
+        <div class="card">
+          <div class="card">
+            <div class="card-body" id="h2">Login Now</div>
+            <p class="cust"><span> <i class='fa fa-user-circle' style='font-size:20px'></i></span> Customer ID</p>
+            <form id="form">
+              <label for="mail"></label>
+              <input type="email" id="ema" name="ema" placeholder="ID/e-mail">
+              <label for="password"></label>
+              <input type="password" id="pwd" name="pwd" maxlength="10" placeholder="Password">
+              <p class="Terms"> By Login, You agree to our<span class="cond"> Terms & Conditions</span>
+              </p>
+              <button class="Log" id="log" col-lg-6 col-sm-2>Login Now ></button>
+              <p class="Forg"> Forgot Password</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./bank.js"></script>
+  </body>
+
+</html>
